@@ -360,7 +360,7 @@ class VideoApp(App):
         self.progress = ProgressBar(max=100, value=0, size_hint_y=None, height=dp(10))
         root.add_widget(self.progress)
 
-        self.search_btn = Button(text="Turbo Search (300 items)", size_hint_y=None, height=dp(48), on_release=self.on_search)
+        self.search_btn = Button(text="Turbo Search", size_hint_y=None, height=dp(48), on_release=self.on_search)
         root.add_widget(self.search_btn)
 
         self.scroll = ScrollView()
@@ -398,7 +398,7 @@ class VideoApp(App):
         if current != self.last_search_params:
             if self.search_btn.disabled:
                 self.search_btn.disabled = False
-                self.search_btn.text = "Turbo Search (300 items)"
+                self.search_btn.text = "Turbo Search"
                 self.status.text = "Parameters changed. Ready for new search."
         else:
             if not self.search_btn.disabled:
