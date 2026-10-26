@@ -32,7 +32,7 @@ The Android version uses `Kivy`, as `Tkinter` does not work on mobile. You will 
 1. Install Pydroid 3 from the Play Store.
 2. Open the app, go to the menu (three lines) and select **Pip**.
 3. Go to the "Pip" tab, find and install the **kivy** library (it may take a few minutes).
-4. Download `android.py` from this repository and save it to your phone.
+4. Download `mobile.py` from this repository and save it to your phone.
 5. Open Pydroid 3, tap the folder icon, find the downloaded file, and open it.
 6. Tap the yellow "Play" button at the bottom of the screen to run. The first Kivy launch may take 10-20 seconds.
 
@@ -48,7 +48,7 @@ The Android version uses `Kivy`, as `Tkinter` does not work on mobile. You will 
 
 ## Configuration
 
-All main parameters are at the top of the file (either `pc.py` or `android.py`). You can open the file in any text editor and change the following values:
+All main parameters are at the top of the file (either `pc.py` or `mobile.py`). You can open the file in any text editor and change the following values:
 
 ### View threshold
 By default, videos with fewer than 50 views are searched. To change this, find the line:
@@ -102,7 +102,7 @@ MIT
 1. Установите Pydroid 3.
 2. Перейдите в меню -> **Pip**.
 3. Найдите и установите библиотеку **kivy**.
-4. Скачайте файл `android.py` и откройте его в Pydroid 3.
+4. Скачайте файл `mobile.py` и откройте его в Pydroid 3.
 5. Нажмите кнопку "Play" для запуска.
 
 ## Настройка
