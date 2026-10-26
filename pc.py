@@ -159,7 +159,7 @@ class App:
         # Buttons
         btn_frm = ttk.Frame(root, padding=(10, 0))
         btn_frm.pack(fill="x")
-        self.btn_search = ttk.Button(btn_frm, text="Turbo Search (300 items)", command=self.start_search)
+        self.btn_search = ttk.Button(btn_frm, text="Turbo Search", command=self.start_search)
         self.btn_search.pack(side="left")
         
         self.lbl_status = ttk.Label(root, text="Ready.", padding=10)
