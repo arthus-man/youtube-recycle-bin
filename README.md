@@ -10,7 +10,7 @@ Filters videos below a set threshold (default is < 50 views, configurable).
 - Support for year, month, and exact day date filters.
 - Turbo mode for automatically paging through a large number of results.
 - Sorting by relevance or duration.
-- Thumbnail loading (PC version only, requires Pillow).
+- Thumbnail loading.
 
 ## Installation and Usage
 
@@ -83,7 +83,7 @@ MIT
 - Поддержка поиска по годам, месяцам и конкретным дням.
 - Турбо-режим для автоматического пролистывания большого количества результатов.
 - Сортировка по релевантности и по длительности.
-- Загрузка превью видео (только в ПК-версии).
+- Загрузка превью видео.
 
 ## Установка и запуск
 
